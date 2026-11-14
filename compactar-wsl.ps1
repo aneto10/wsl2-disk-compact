@@ -1,4 +1,5 @@
 # Fecha todas as distribuições WSL
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 wsl --shutdown
 
 Start-Sleep -Seconds 5
